@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg img{
+    width: 100%;
+}
+
+.bg {
+    width: 100%;
+    height: 700px;
+}
+
+.isi img{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+}
+.isi {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -900px;
+    margin-left: 400px;
+}
