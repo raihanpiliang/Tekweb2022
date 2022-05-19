@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+
+}
+.awal {
+    height: 2200px;
+    width: 100%;
+    background-image: url(/assets/rai.png);
+    background-size: cover;
+    background-position-y: -300px;
+    
+    background-attachment: fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo {
+    color: #523A28 ;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-right: 0px;
+    font-weight: bolder;
+}
+span{
+   color: black;
+}
+.list{
+    width: 70%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: black;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+nav ul li a:hover{
+    color:white;
+    transition: 0.5s;
+}
+.btn{
+    background-color: black;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+.isi{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: black;
+    margin: 20px 0px 20px;
+    font-size: 40px;
+}
+.berbagai{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.berbagai .social a{
+    display: inline-block;
+    color:white;
+    margin-right: 35px ;
+    transform: scale(1);
+    background-color: none;
+    transition: 0.5s;
+   
+
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.social a:hover {
+    transform: scale(1.6);
+}
+
+.berbagai p{
+    font-size: 25px;
+    color: black;
+    margin-right: 60px;
+font-weight: bolder;
+}
+
+
+    
+
+
+
