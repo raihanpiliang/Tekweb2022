@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/artikel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link href='https://css.gg/facebook.css' rel='stylesheet'>
+<link href='https://css.gg/instagram.css' rel='stylesheet'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <title>Document</title>
+</head>
+<body>
+   <div class="awal">
+       <nav>
+           <h2 class="logo"><span>Por</span>tofolio</h2>
+           <ul class="list">
+               <li><a href="index.html">My Portofolio</a></li>
+               <li><a href="artikel.html">artikel</a></li>
+               <li><a href="#">Skill</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+            <a href="#" class="btn">Subcribe</a>
+       </nav>
+       <div class="artikel" id="app">
+           <div class="content" v-for="data in articles">
+               <div class="sub-content">
+                   <img :src="data.Gambar">
+                    <h4>{{ data.Title }}</h4>
+                    <p>{{ data.Author }}</p> 
+                    <button> <a :href="'./hub.html?markdown=' + data.markdown"> baca</a></button>
+               </div>
+               
+           </div>
+
+       </div>
+   </div>
+   <script src="https://unpkg.com/vue@3"></script>
+   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.0.3/showdown.min.js"></script>
+   <script src="data.js"></script>
+</body>
+</html>
