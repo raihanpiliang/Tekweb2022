@@ -1,21 +1,21 @@
 [
     {
         "ID": "1",
-        "Gambar": "https://piliang.my.id/public_html/assets/mandalika.jpg",
+        "Gambar": "https://raw.githubusercontent.com/raihanpiliang/Tekweb2022/main/assets/mandalika.jpg",
         "Title": "Mandalika: kepingan surga budaya dan alam tersembunyi di lombok, NTB",
         "Author": "Oleh Indonesia Travel pada 15 maret 2022",
         "markdown": "artikel1.md"
     },
     {
         "ID": "2",
-        "Gambar":"https://piliang.my.id/public_html/assets/custome.jpg",
+        "Gambar":"https://raw.githubusercontent.com/raihanpiliang/Tekweb2022/main/assets/custome.jpg",
         "Title": "Mencari Akar Lahir Nya Kustom Kulture",
         "Author": "Oleh Rio apinino",
         "markdown": "artikel2.md"
     },
     {
         "ID": "3",
-        "Gambar":"https://piliang.my.id/public_html/assets/bosozoku.jpg",
+        "Gambar":"https://raw.githubusercontent.com/raihanpiliang/Tekweb2022/main/assets/bosozoku.jpg",
         "Title": "Akultrasi Budaya Timur Dan Barat Harley-Davidson XR1200 Bosozoku",
         "Author": "Oleh GridOto.com",
         "markdown": "artikel3.md"
